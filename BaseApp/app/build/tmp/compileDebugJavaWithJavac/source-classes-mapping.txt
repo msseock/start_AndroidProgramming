@@ -1,0 +1,5 @@
+com/cookandroid/baseapp/MainActivity.java
+ com.cookandroid.baseapp.MainActivity
+ com.cookandroid.baseapp.MainActivity$1
+com/cookandroid/baseapp/BuildConfig.java
+ com.cookandroid.baseapp.BuildConfig
