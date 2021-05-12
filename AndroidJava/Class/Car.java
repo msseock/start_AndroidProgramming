@@ -3,6 +3,11 @@ public class Car {
 	String color;
 	int speed = 0;
 	
+	Car(String color, int speed) {
+		this.color = color;
+		this.speed = speed;
+	}
+	
 	int getSpeed() {
 		return speed;
 	}

@@ -1,20 +1,11 @@
 // Car 클래스 인스턴스로 생성하기
 public class CarInstance {
 	public static void main(String[] args) {
-		// myCar1 객체 생성
-		Car myCar1 = new Car();
-		myCar1.color = "빨강";
-		myCar1.speed = 0;
+		// myCar 객체 생성
+		Car myCar1 = new Car("빨강", 0);
+		Car myCar2 = new Car("파랑", 0);
+		Car myCar3 = new Car("초록", 0);
 		
-		// myCar2 객체 생성
-		Car myCar2 = new Car();
-		myCar2.color = "파랑";
-		myCar2.speed = 0;
-		
-		// myCar3 객체 생성
-		Car myCar3 = new Car();
-		myCar3.color = "초록";
-		myCar3.speed = 0;
 		
 		// myCar1 객체 이용 및 결과 출력
 		myCar1.upSpeed(50);
