@@ -1,5 +1,5 @@
 // Car 클래스 인스턴스로 생성하기
-public class CarInstance {
+public class exam07 {
 	public static void main(String[] args) {
 		// myCar 객체 생성
 		Car myCar1 = new Car("빨강", 0);
