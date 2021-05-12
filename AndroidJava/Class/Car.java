@@ -3,9 +3,19 @@ public class Car {
 	String color;
 	int speed = 0;
 	
+	// Car 생성자
 	Car(String color, int speed) {
 		this.color = color;
 		this.speed = speed;
+	}
+	
+	// 메소드 오버로딩 추가
+	Car(int speed) {
+		this.speed = speed;
+	}
+	
+	Car() {
+		
 	}
 	
 	int getSpeed() {
