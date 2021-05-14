@@ -1,5 +1,5 @@
 // Animal 상속받은 클래스, 추상메소드 move 구현!
-public class Tiger extends Animal{
+class Tiger extends Animal{
 	int age;
 	@Override
 	void move() {
